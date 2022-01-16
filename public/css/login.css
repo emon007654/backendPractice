@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: linear-gradient(
+    rgb(209, 205, 205),
+    rgb(190, 192, 190),
+    rgb(153, 153, 155)
+  );
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* align-content: center; */
+  border: 1px solid rgb(17, 15, 15);
+  background: linear-gradient(
+    rgb(172, 167, 167),
+    rgb(162, 163, 162),
+    rgb(166, 166, 168)
+  );
+  height: 25em;
+  width: 50rem;
+}
+
+.inputClass {
+  width: 200px;
+  height: 25px;
+  background: rgb(194, 191, 191);
+}
+.inputClass:hover {
+  width: 200px;
+  height: 25px;
+  background: rgb(245, 243, 243);
+}
+.submit {
+  margin-top: 450px;
+  height: 40px;
+  width: 50px;
+  background: rgb(121, 116, 121);
+  font-size: 14px;
+  font-weight: bolder;
+}
+.submit:hover {
+  margin-top: 450px;
+  height: 40px;
+  width: 50px;
+  background: rgb(56, 50, 56);
+  color: white;
+}
